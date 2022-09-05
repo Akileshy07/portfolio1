@@ -1,0 +1,389 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.left{
+    position: fixed;
+    width: 30%;
+    min-height: 100vh;
+    background: #131313;
+    float: left;
+}
+.right{
+    position: absolute;
+    width: 70%;
+    top: 0;
+    right: 0;
+    min-height: 100vh;
+    background: #202020;
+}
+
+.right-1{
+    position: absolute;
+    top: 100vh;
+    width: 70%;
+   margin-left: 30%;
+    min-height: 100vh;
+   background-color:  #1A1A1A;
+    transition: all 0.5s ease 0.5s;
+}
+.right-1 h2{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 40px;
+    color: #fff;
+}
+.img{
+    width: 170px;
+    height: 170px;
+    background-color: #fff;
+    border-radius: 50%;
+    border: 10px solid aquamarine;
+    position: absolute;
+    top: 30px;
+    left: 100px;
+}
+.intro{
+    position: absolute;
+    top: 220px;
+    left: 40px;
+    text-align: center;
+    color: #fff;
+}
+.intro nav{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+}
+.intro nav a{
+    text-decoration: none;
+    margin: 10px;
+    border: 1px solid aquamarine;
+    border-radius: 30px;
+    padding: 10px 12px;
+    text-align: center;
+    width: 270px;
+    color: #fff;
+    font-weight: 600;
+    background-color: aquamarine;
+}
+.intro nav a:hover{
+    margin-left: 40px;
+    transition: .5s;
+}
+.intro1{
+    position: absolute;
+    width: 85%;
+    height: 350px;
+    top: 180px;
+    left: 63px;
+    background-color: #131313;
+    border-radius: 10px;
+}
+.img1{
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    background-color: aquamarine;
+    border: 10px solid #fff;
+    position: absolute;
+    bottom: 220px;
+    left: 50px;
+    box-shadow: 0 0 20px 0px aquamarine ;
+
+}
+
+.about{
+    position: absolute;
+    left: 290px;
+    bottom: 50px;
+    color: #fff;
+}
+
+.about p{
+    margin-top: 10px;
+    font-weight: 200;
+}
+.skill-container{
+    width: 90%;
+    margin: auto;
+    margin-bottom: 10px;
+}
+.container1{
+    width: 80%;
+    margin: auto;
+    background-color: #fff;
+   margin-bottom: 5px;
+   border-radius: 30px;
+}
+.skill-container p{
+    color: #fff;
+    margin-left: 90px;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 15px;
+}
+.skills{
+    padding: 10px;
+}
+.html{
+    width: 95%;
+    background-color: aquamarine;
+    border-radius: 30px;
+    color: #131313;
+}
+.css{
+    width: 75%;
+    background-color: aquamarine;
+    border-radius: 30px; 
+    color: #131313;
+
+}
+.js{
+    width: 40%;
+    background-color: aquamarine;
+    border-radius: 30px; 
+    color: #131313;
+
+}
+.c{
+    width: 70%;
+    background-color: aquamarine;
+    border-radius: 30px; 
+    color: #131313;
+
+}
+.sql{
+    width: 10%;
+    background-color: aquamarine;
+    border-radius: 30px; 
+    color: #131313;
+
+}
+
+/* EDUCATION */
+
+.right2{
+    position: absolute;
+    top: 200vh;
+    width: 70%;
+   margin-left: 30%;
+    min-height: 100vh;
+    background: #202020;
+    transition: all 0.5s ease 0.5s; 
+}
+.right2 h2{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 40px;
+    color: #fff;
+}
+.card{
+    width: 28%;
+    height: 350px;
+    background: aquamarine;
+    border-radius: 10px;
+    float: left;
+    margin-left: 35px;
+    margin-top: 80px;
+}
+
+.card-image , .card-image1,.card-image2{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: #fff;
+    border: 10px solid #131313;
+}
+.card-image{
+    position: absolute;
+    left: 85px;
+    bottom: 310px;
+    box-shadow: 0 0 20px 0px aquamarine ;
+
+}
+.card-image1{
+    position: absolute;
+    left: 365px;
+    bottom: 310px;
+    box-shadow: 0 0 20px 0px aquamarine ;
+
+
+}
+.card-image2{
+    position: absolute;
+    left: 645px;
+    bottom: 310px;
+    box-shadow: 0 0 20px 0px aquamarine ;
+
+
+}
+.info {
+    color: #131313;
+    text-align: left;
+    margin-top: 90px;
+    margin-left: 22px;
+
+}
+.info h3{
+    font-weight: 700;
+}
+
+/* project */
+
+.right3{
+    position: absolute;
+    top: 300vh;
+    width: 70%;
+   margin-left: 30%;
+    min-height: 100vh;
+    background: #1A1A1A;
+    transition: all 0.5s ease 0.5s;   
+}
+.right3 h1{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 40px;
+    color: #fff;  
+}
+.project{
+    width: 28%;
+    height: 350px;
+    background: #FFDD3C;
+    border-radius: 10px;
+    float: left;
+    margin-left: 35px;
+    margin-top: 25px;
+    
+}
+.project:hover{
+    margin-top: 10px;
+    transition: .5s;
+ 
+}
+.hero-btn , .hero-btn1, .hero-btn2{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    border: 1px solid #fff;
+    padding: 8px 25px;
+    font-size: 15px;
+    background: transparent;
+  
+    cursor: pointer;
+}
+.hero-btn{
+    border-radius: 10px;
+    position: absolute;
+    left: 57px;
+    bottom: 30px;
+}
+.hero-btn1{
+    border-radius: 10px;
+    position: absolute;
+    left: 624px;
+    bottom: 30px;  
+}
+.hero-btn2{
+    border-radius: 10px;
+    position: absolute;
+    left: 337px;
+    bottom: 30px;  
+}
+.hero-btn:hover{
+    background-color: aquamarine;
+    border: 1px solid aquamarine;
+    transition: 1s;
+ 
+}
+.hero-btn1:hover{
+    background-color: aquamarine;
+    border: 1px solid aquamarine;
+    transition: 1s; 
+}
+.hero-btn2:hover{
+    background-color: aquamarine;
+    border: 1px solid aquamarine;
+    transition: 1s;
+}
+
+/* contact */
+
+.right4{
+    position: absolute;
+    top: 400vh;
+    width: 70%;
+   margin-left: 30%;
+    min-height: 100vh;
+    background: #202020;
+    transition: all 0.5s ease 0.5s;   
+}
+.right4 h2{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 40px;
+    color: #fff;  
+}
+.contact{
+  
+    width: 50%;
+    margin: auto;
+    background-color: #131313;
+    height: 300px;
+    border-radius: 10px;
+    margin-top: 20px;
+    box-shadow: 0 0 10px 0px aquamarine;
+}
+.contact input{
+    width: 250px;
+    padding: 10px;
+    margin-left: 8px;
+    margin-top: 30px;
+    border-radius: 30px;
+    background: transparent;
+    border: 4px solid aquamarine;
+    box-shadow: 0 0 10px 0px #fff;
+    color: #fff;
+    transition: .5s;
+}
+.contact input::placeholder{
+    color: #fff;
+
+}
+
+label{
+    color: #fff;
+    font-weight: 600;
+    margin-left: 70px;
+}
+.social-media{
+    position: absolute;
+    bottom: 50px;
+    left:250px;
+    text-align: center;
+    
+}
+.bi{
+    width: 150px;
+    color: #fff;
+    margin-left: 30px;
+    font-size: 50px;
+}
+.bi-instagram:hover{
+    color: 	#E4405F;
+
+}
+.bi-twitter:hover{
+    color: 	#1DA1F2;
+}
+.bi-linkedin:hover{
+    color: #0077b5;
+}
+.bi-github:hover{
+    color: #333333;
+}
+
+
